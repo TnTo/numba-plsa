@@ -1,4 +1,5 @@
 data/
 *.pyc
 *ipynb*
+__pycache__
 
