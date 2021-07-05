@@ -3,3 +3,5 @@ data/
 *ipynb*
 __pycache__
 .mypy_cache
+*.egg-info
+dist

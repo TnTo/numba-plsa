@@ -5,9 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="numba_plsa",
-    version="0.0.1",
+    version="0.0.2",
     author="Michele Ciruzzi",
     author_email="tnto@hotmail.it",
+    license="MIT",
     description="Numba implementation of PLSA",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -16,7 +17,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
     ],
-    packages=setuptools.find_packages(where=""),
+    packages=["numba_plsa"],
     python_requires=">=3.6",
     install_requires=["numba", "numpy", "scipy"],
 )
