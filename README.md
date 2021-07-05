@@ -3,11 +3,9 @@ PLSA for sparse matrices implemented with Numba. Wicked fast.
 
 ### Installation
 
-1. Clone the repo: ```git clone https://github.com/henryre/numba-plsa.git ```
-2. Install NumPy: ```pip install numpy``` or ```conda install numpy```
-3. Install numba: ```pip install numba``` or ```conda install numba```
-4. Run the example: ```python example.py```
-5. Cash out.
+1. Clone the repo: ```git clone https://github.com/TnTo/numba-plsa.git ```
+2. Install: ```pip install .```
+3. Run the example: ```python example.py```
 
 ### Usage
 
