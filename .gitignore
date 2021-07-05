@@ -2,4 +2,4 @@ data/
 *.pyc
 *ipynb*
 __pycache__
-
+.mypy_cache
